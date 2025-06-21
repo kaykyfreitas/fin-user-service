@@ -103,7 +103,7 @@ class CreateUserUseCaseTest extends UseCaseTest {
     }
 
     @Test
-    public void givenAValidCommand_whenGatewayThrowsRandomException_thenShouldReturnAnException() {
+    void givenAValidCommand_whenGatewayThrowsRandomException_thenShouldReturnAnException() {
         // Given
         final var expectedName = "John Doe";
         final var expectedDocument = "12345678900";
